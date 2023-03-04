@@ -17,12 +17,12 @@ const App = () => {
                     />
                 </Link>
 
-                <Link to={'/'} className="flex gap-2 items-center">
+                <Link to={'/'} className="gap-2 items-center hidden md:flex">
                     <img src={imagic} alt="imagic logo" 
                         className="w-14 h-14 object-contain"
                     />
                     <h1
-                        className="text-4xl font-bold text-gray-900"
+                        className="text-4xl font-bold text-slate-700"
                     >
                         imagic
                     </h1>

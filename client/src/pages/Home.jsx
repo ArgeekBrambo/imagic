@@ -76,6 +76,13 @@ const Home = () => {
 
     return (
         <section className="max-w-7xl mx-auto">
+
+            <div className="flex flex-row items-center mb-10 md:hidden">
+                <img src={imagic} alt="imagic" className="w-20" />
+                <h1 className="text-6xl font-bold text-slate-700">
+                    imagic
+                </h1>
+            </div>
             <div>
                 <h1 className="font-extrabold text-[#222328] text-[32px]">
                     The Community Showcase
